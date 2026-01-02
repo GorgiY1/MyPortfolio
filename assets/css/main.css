@@ -19,9 +19,9 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #121212; /* Background color for the entire website, including individual sections */
-  --default-color: #e0e0e0; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the entire website */
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -40,8 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #121212;
-  --default-color: #e0e0e0;
+  --background-color: #f4fafd;
   --surface-color: #ffffff;
 }
 
@@ -51,23 +50,6 @@
   --heading-color: #ffffff;
   --surface-color: #151f2b;
   --contrast-color: #ffffff;
-}
-
-/* Gradient Background Classes */
-.gradient-1 {
-  background: linear-gradient(180deg, #121212 0%, #1a1a1a 100%);
-}
-
-.gradient-2 {
-  background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
-}
-
-.gradient-3 {
-  background: linear-gradient(180deg, #121212 0%, #151820 100%);
-}
-
-.gradient-4 {
-  background: radial-gradient(circle at center, #1a1a1a 0%, #121212 100%);
 }
 
 /* Smooth scroll */
@@ -540,8 +522,6 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: var(--heading-color);
-  font-family: var(--heading-font);
 }
 
 .section-title h2:after {
@@ -674,8 +654,6 @@ section,
 .stats .stats-item {
   padding: 30px;
   width: 100%;
-  background: radial-gradient(circle at center, rgba(26, 26, 26, 0.5) 0%, rgba(18, 18, 18, 0.3) 100%);
-  border-radius: 8px;
 }
 
 .stats .stats-item i {
@@ -706,10 +684,6 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
-.skills.section.light-background {
-  background: linear-gradient(180deg, #121212 0%, #1a1a1a 50%, #121212 100%);
-}
-
 .skills .progress {
   height: 60px;
   display: block;
@@ -806,10 +780,6 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-.portfolio.section.light-background {
-  background: linear-gradient(180deg, #1a1a1a 0%, #121212 50%, #1a1a1a 100%);
-}
-
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -928,7 +898,7 @@ section,
 }
 
 .services .service-item .icon {
-  background: linear-gradient(135deg, var(--accent-color) 0%, color-mix(in srgb, var(--accent-color) 80%, #1a1a1a) 100%);
+  background: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -976,10 +946,6 @@ section,
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
-.testimonials.section.light-background {
-  background: linear-gradient(180deg, #121212 0%, #151820 50%, #121212 100%);
-}
-
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1034,7 +1000,7 @@ section,
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--surface-color) 95%, #1a1a1a) 100%);
+  background-color: var(--surface-color);
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -1078,10 +1044,9 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background: linear-gradient(135deg, #1a1a1a 0%, #121212 100%);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  background-color: var(--surface-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 @media (max-width: 575px) {
@@ -1127,11 +1092,10 @@ section,
 }
 
 .contact .php-email-form {
-  background: linear-gradient(135deg, #1a1a1a 0%, #121212 100%);
+  background-color: var(--surface-color);
   height: 100%;
   padding: 30px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 575px) {
@@ -1148,7 +1112,7 @@ section,
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: #1a1a1a;
+  background-color: var(--surface-color);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
