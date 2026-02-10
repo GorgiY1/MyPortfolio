@@ -71,12 +71,12 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Nomyfy / HealthyLifestyleApp Details</h1>
+        <h1 class="mb-2 mb-lg-0" data-translate="nomyfyPageTitle">Nomyfy / HealthyLifestyleApp Details</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html" data-translate="home">Home</a></li>
             <li><a href="index.html#portfolio" data-translate="breadcrumbPortfolio">Portfolio</a></li>
-            <li class="current">Nomyfy / HealthyLifestyleApp</li>
+            <li class="current"><span data-translate="nomyfyBreadcrumbCurrent">Nomyfy / HealthyLifestyleApp</span></li>
           </ol>
         </nav>
       </div>
@@ -110,6 +110,12 @@
 
               <div class="swiper-wrapper align-items-center">
 
+                <div class="swiper-slide">
+                  <video class="img-fluid" controls preload="metadata">
+                    <source src="assets/img/portfolio/video/Presentation-NOMYFY.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/nomyfy/Screenshot 2025-12-18 132808.png" alt="HealthyLifestyleApp - onboarding and authentication screens">
                 </div>
@@ -176,25 +182,25 @@
             </div>
 
             <div class="portfolio-description mt-4" data-aos="fade-up" data-aos-delay="250">
-              <h2>HealthyLifestyleApp — Health &amp; Wellness Platform</h2>
-              <p>
+              <h2 data-translate="nomyfyHeading">HealthyLifestyleApp — Health &amp; Wellness Platform</h2>
+              <p data-translate="nomyfyP1">
                 HealthyLifestyleApp is a full‑stack health &amp; wellness platform that helps users build sustainable habits around
                 fitness, nutrition, sleep, and mental health. The app combines personal health tracking, analytics, and social
                 features to keep users motivated and engaged over the long term.
               </p>
-              <p>
+              <p data-translate="nomyfyP2">
                 Users can log weight, workouts, nutrition, sleep and mood, then review progress through interactive dashboards and
                 charts. The platform includes social challenges, groups, and a community feed so people can share results, support
                 each other, and compete in friendly goals.
               </p>
               <ul>
-                <li>Centralized health tracking across weight, workouts, nutrition, sleep, and mental health with analytics.</li>
-                <li>Social features: challenges, groups, community feed and profile pages to increase user engagement.</li>
-                <li>Specialist booking for trainers, dietitians, doctors, and psychologists with calendar management.</li>
-                <li>Secure authentication with JWT, including Google and Facebook login.</li>
-                <li>Scalable architecture using ASP.NET Core 8, React 19, SQL Server, Redis, MinIO, Docker, Stripe, EF Core, and Clean Architecture.</li>
+                <li data-translate="nomyfyLi1">Centralized health tracking across weight, workouts, nutrition, sleep, and mental health with analytics.</li>
+                <li data-translate="nomyfyLi2">Social features: challenges, groups, community feed and profile pages to increase user engagement.</li>
+                <li data-translate="nomyfyLi3">Specialist booking for trainers, dietitians, doctors, and psychologists with calendar management.</li>
+                <li data-translate="nomyfyLi4">Secure authentication with JWT, including Google and Facebook login.</li>
+                <li data-translate="nomyfyLi5">Scalable architecture using ASP.NET Core 8, React 19, SQL Server, Redis, MinIO, Docker, Stripe, EF Core, and Clean Architecture.</li>
               </ul>
-              <p>
+              <p data-translate="nomyfyP3">
                 My responsibilities included designing and implementing backend REST APIs in ASP.NET Core, configuring database
                 schemas and queries with EF Core and SQL Server, integrating external services (authentication providers, Stripe,
                 storage), and collaborating with front‑end developers and designers to deliver a cohesive user experience.

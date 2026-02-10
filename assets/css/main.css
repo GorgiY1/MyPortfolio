@@ -863,12 +863,15 @@ section,
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
   transition: 0.3s;
   line-height: 1.2;
+}
+
+.portfolio .portfolio-content .portfolio-info .preview-link {
+  left: calc(50% - 40px);
 }
 
 .portfolio .portfolio-content .portfolio-info .preview-link:hover,
@@ -880,6 +883,20 @@ section,
   left: 50%;
   font-size: 34px;
   line-height: 0;
+}
+
+.portfolio .portfolio-content .portfolio-info .portfolio-video-link {
+  position: absolute;
+  left: calc(50% - 72px);
+  font-size: 26px;
+  top: calc(50% - 14px);
+  color: #fff;
+  transition: 0.3s;
+  line-height: 1.2;
+}
+
+.portfolio .portfolio-content .portfolio-info .portfolio-video-link:hover {
+  color: var(--accent-color);
 }
 
 .portfolio .portfolio-content:hover .portfolio-info {
@@ -1149,6 +1166,12 @@ section,
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {

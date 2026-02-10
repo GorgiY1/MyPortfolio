@@ -179,7 +179,37 @@
       if (swiperElement.classList.contains("swiper-tab")) {
         initSwiperWithCustomPagination(swiperElement, config);
       } else {
-        new Swiper(swiperElement, config);
+        const swiper = new Swiper(swiperElement, config);
+
+        // If this swiper has video slides, control autoplay & navigation based on video state
+        const videos = swiperElement.querySelectorAll('video');
+        if (videos.length) {
+          videos.forEach((video) => {
+            const stopSliding = () => {
+              // Stop autoplay if running
+              if (swiper.autoplay && swiper.autoplay.running) {
+                swiper.autoplay.stop();
+              }
+              // Prevent manual / automatic slide changes
+              swiper.allowSlideNext = false;
+              swiper.allowSlidePrev = false;
+              swiper.allowTouchMove = false;
+            };
+
+            const resumeSliding = () => {
+              swiper.allowSlideNext = true;
+              swiper.allowSlidePrev = true;
+              swiper.allowTouchMove = true;
+              if (swiper.params.autoplay && swiper.params.autoplay.delay && swiper.autoplay && !swiper.autoplay.running) {
+                swiper.autoplay.start();
+              }
+            };
+
+            video.addEventListener('play', stopSliding);
+            video.addEventListener('pause', resumeSliding);
+            video.addEventListener('ended', resumeSliding);
+          });
+        }
       }
     });
   }

@@ -120,7 +120,50 @@ const translations = {
     stackLabel: "Stack",
     viewGitHub: "View on GitHub",
     
-    // Portfolio Detail Pages
+    // Portfolio Detail Pages - Nomyfy
+    nomyfyPageTitle: "Nomyfy / HealthyLifestyleApp Details",
+    nomyfyBreadcrumbCurrent: "Nomyfy / HealthyLifestyleApp",
+    nomyfyHeading: "HealthyLifestyleApp — Health & Wellness Platform",
+    nomyfyP1: "HealthyLifestyleApp is a full‑stack health & wellness platform that helps users build sustainable habits around fitness, nutrition, sleep, and mental health. The app combines personal health tracking, analytics, and social features to keep users motivated and engaged over the long term.",
+    nomyfyP2: "Users can log weight, workouts, nutrition, sleep and mood, then review progress through interactive dashboards and charts. The platform includes social challenges, groups, and a community feed so people can share results, support each other, and compete in friendly goals.",
+    nomyfyLi1: "Centralized health tracking across weight, workouts, nutrition, sleep, and mental health with analytics.",
+    nomyfyLi2: "Social features: challenges, groups, community feed and profile pages to increase user engagement.",
+    nomyfyLi3: "Specialist booking for trainers, dietitians, doctors, and psychologists with calendar management.",
+    nomyfyLi4: "Secure authentication with JWT, including Google and Facebook login.",
+    nomyfyLi5: "Scalable architecture using ASP.NET Core 8, React 19, SQL Server, Redis, MinIO, Docker, Stripe, EF Core, and Clean Architecture.",
+    nomyfyP3: "My responsibilities included designing and implementing backend REST APIs in ASP.NET Core, configuring database schemas and queries with EF Core and SQL Server, integrating external services (authentication providers, Stripe, storage), and collaborating with front‑end developers and designers to deliver a cohesive user experience. The project demonstrates my ability to build production‑style full‑stack applications, work in a team, and apply clean architecture and SOLID principles in a real project.",
+
+    // Portfolio Detail Pages - Cukolini
+    cukoliniPageTitle: "Cukolini Graphs Details",
+    cukoliniBreadcrumbCurrent: "Cukolini Graphs",
+    cukoliniHeading: "Cukolini Graphs — Work Schedule Management System",
+    cukoliniP1: "A full-stack web application for automated work schedule generation with employee preference management. Built with ASP.NET Core MVC, it demonstrates enterprise-level architecture, design patterns, and complex business logic.",
+    cukoliniP2: "The system automates work schedule creation while considering employee preferences, branch requirements, and business rules. It supports multiple branches, role-based access control, and intelligent shift allocation algorithms that adapt to different day-of-week strategies.",
+    cukoliniLi1: "Automated schedule generation with intelligent algorithms based on employee preferences, branch requirements, and day-of-week strategies.",
+    cukoliniLi2: "Employee preference management system where employees can submit work schedule preferences factored into automatic generation.",
+    cukoliniLi3: "Multi-branch support for managing multiple branches (filials) with independent scheduling requirements.",
+    cukoliniLi4: "Role-based access control with complete authentication and authorization using ASP.NET Core Identity.",
+    cukoliniLi5: "Undo/Redo functionality using Command pattern with persistent command history for branch management operations.",
+    cukoliniLi6: "Enterprise architecture implementing Strategy, Command, and Repository patterns with dependency injection using Autofac.",
+    cukoliniP3: "My responsibilities included designing and implementing the full-stack MVC application, developing complex scheduling algorithms with multiple constraints, implementing design patterns (Strategy, Command, Repository), configuring database schemas with Entity Framework Core migrations, and building a responsive UI with Bootstrap and custom CSS. The project demonstrates my ability to build production-ready applications with clean architecture, SOLID principles, and maintainable codebase.",
+
+    // Portfolio Detail Pages - Ann's Decor
+    annsdecorPageTitle: "Ann's Decor Details",
+    annsdecorBreadcrumbCurrent: "Ann's Decor",
+    annsdecorHeading: "Ann's Decor — Event Design Business Website",
+    annsdecorP1: "Developed a responsive business website for an event design and floristry company. Customized the BootstrapMade Kelly template to create a multi-page site showcasing services, portfolio, and client testimonials.",
+    annsdecorP2: "The website features a modern, elegant design with smooth animations, interactive galleries, and a fully functional contact form. Built with a mobile-first approach, it provides an excellent user experience across all devices.",
+    annsdecorLi1: "Multi-page navigation (Home, About, Gallery, Services, Contact) with smooth scrolling and animated sections.",
+    annsdecorLi2: "Filterable portfolio gallery with category-based filtering using Isotope.js and lightbox image viewer with GLightbox.",
+    annsdecorLi3: "Testimonial carousel using Swiper.js with responsive breakpoints and autoplay functionality.",
+    annsdecorLi4: "Contact form with real-time validation, phone number formatting, email domain verification, and PHP backend integration with PHPMailer.",
+    annsdecorLi5: "Responsive design with Bootstrap 5.3.3, custom CSS variables for theming, and mobile-first approach.",
+    annsdecorLi6: "Interactive elements including sticky navigation header, animated sections with AOS (Animate On Scroll), and form validation with visual feedback.",
+    annsdecorP3: "My responsibilities included customizing the BootstrapMade Kelly template, implementing responsive layouts with Bootstrap 5.3.3, integrating JavaScript libraries (AOS, Swiper.js, GLightbox, Isotope.js), developing the contact form with PHP backend and PHPMailer integration, creating custom CSS styling with CSS variables, and ensuring cross-browser compatibility. The project demonstrates my skills in frontend web development, template customization, responsive design, form validation, JavaScript integration, and UI/UX design principles.",
+    templateLabel: "Template",
+    websiteLabel: "Website",
+
+    // Generic details label
     details: "Details"
   },
   
@@ -242,7 +285,50 @@ const translations = {
     stackLabel: "Стек",
     viewGitHub: "Переглянути на GitHub",
     
-    // Portfolio Detail Pages
+    // Portfolio Detail Pages - Nomyfy
+    nomyfyPageTitle: "Деталі Nomyfy / HealthyLifestyleApp",
+    nomyfyBreadcrumbCurrent: "Nomyfy / HealthyLifestyleApp",
+    nomyfyHeading: "HealthyLifestyleApp — платформа здоров'я та добробуту",
+    nomyfyP1: "HealthyLifestyleApp — це full‑stack платформа для здоров'я та добробуту, яка допомагає користувачам формувати сталі звички у сфері фітнесу, харчування, сну та ментального здоров'я. Додаток поєднує особисте відстеження показників, аналітику та соціальні функції, щоб підтримувати мотивацію користувачів у довгостроковій перспективі.",
+    nomyfyP2: "Користувачі можуть фіксувати вагу, тренування, харчування, сон та настрій, а потім переглядати прогрес через інтерактивні дашборди та графіки. Платформа включає соціальні челенджі, групи та стрічку спільноти, де користувачі можуть ділитися результатами, підтримувати один одного та змагатися у дружніх цілях.",
+    nomyfyLi1: "Централізоване відстеження ваги, тренувань, харчування, сну та ментального здоров'я з аналітикою.",
+    nomyfyLi2: "Соціальні функції: челенджі, групи, стрічка спільноти та профілі користувачів для підвищення залученості.",
+    nomyfyLi3: "Запис до спеціалістів (тренери, дієтологи, лікарі, психологи) з керуванням календарем.",
+    nomyfyLi4: "Безпечна аутентифікація з JWT, включно з входом через Google та Facebook.",
+    nomyfyLi5: "Масштабована архітектура на базі ASP.NET Core 8, React 19, SQL Server, Redis, MinIO, Docker, Stripe, EF Core та Clean Architecture.",
+    nomyfyP3: "Мої обов'язки включали проєктування та реалізацію backend REST API в ASP.NET Core, налаштування схем бази даних і запитів з EF Core та SQL Server, інтеграцію зовнішніх сервісів (провайдери аутентифікації, Stripe, сховище) та співпрацю з frontend-розробниками і дизайнерами для створення цілісного користувацького досвіду. Проєкт демонструє мою здатність будувати production‑рівень full‑stack додатків, працювати в команді та застосовувати чисту архітектуру і принципи SOLID на реальному проєкті.",
+
+    // Portfolio Detail Pages - Cukolini
+    cukoliniPageTitle: "Деталі Cukolini Graphs",
+    cukoliniBreadcrumbCurrent: "Cukolini Graphs",
+    cukoliniHeading: "Cukolini Graphs — система управління графіками роботи",
+    cukoliniP1: "Full‑stack веб-додаток для автоматизованого формування графіків роботи з урахуванням побажань співробітників. Побудований на ASP.NET Core MVC та демонструє архітектуру рівня підприємства, патерни проєктування та складну бізнес-логіку.",
+    cukoliniP2: "Система автоматизує створення графіків роботи з урахуванням побажань співробітників, вимог філій та бізнес-правил. Підтримує декілька філій, рольову модель доступу та інтелектуальні алгоритми розподілу змін, які адаптуються до різних стратегій залежно від дня тижня.",
+    cukoliniLi1: "Автоматизоване формування графіків за допомогою алгоритмів, що враховують побажання співробітників, вимоги філій та стратегії по днях тижня.",
+    cukoliniLi2: "Система керування побажаннями співробітників, де вони можуть подавати свої уподобання щодо графіка, які враховуються при автоматичному формуванні.",
+    cukoliniLi3: "Підтримка кількох філій з незалежними вимогами до розкладів.",
+    cukoliniLi4: "Рольова модель доступу з повною аутентифікацією та авторизацією на базі ASP.NET Core Identity.",
+    cukoliniLi5: "Функціональність Undo/Redo з використанням патерну Command і збереженою історією операцій керування філіями.",
+    cukoliniLi6: "Архітектура рівня підприємства з реалізацією патернів Strategy, Command та Repository і використанням DI-контейнера Autofac.",
+    cukoliniP3: "Мої обов'язки включали проєктування та реалізацію full‑stack MVC-додатку, розробку складних алгоритмів планування із численними обмеженнями, впровадження патернів (Strategy, Command, Repository), налаштування схем бази даних за допомогою міграцій Entity Framework Core та створення адаптивного інтерфейсу з Bootstrap і кастомним CSS. Проєкт демонструє мою здатність створювати production‑готові додатки з чистою архітектурою, принципами SOLID та підтримуваною кодовою базою.",
+
+    // Portfolio Detail Pages - Ann's Decor
+    annsdecorPageTitle: "Деталі Ann's Decor",
+    annsdecorBreadcrumbCurrent: "Ann's Decor",
+    annsdecorHeading: "Ann's Decor — сайт бізнесу з декору подій",
+    annsdecorP1: "Розробив адаптивний бізнес-сайт для компанії з декору подій та флористики. Налаштував шаблон BootstrapMade Kelly, щоб створити багатосторінковий сайт з демонстрацією послуг, портфоліо та відгуків клієнтів.",
+    annsdecorP2: "Сайт має сучасний, елегантний дизайн із плавними анімаціями, інтерактивними галереями та повністю функціональною контактною формою. Завдяки підходу mobile-first сайт забезпечує чудовий користувацький досвід на всіх типах пристроїв.",
+    annsdecorLi1: "Багатосторінкова навігація (Головна, Про нас, Галерея, Послуги, Контакти) з плавним скролом та анімованими секціями.",
+    annsdecorLi2: "Фільтрована галерея портфоліо з фільтрацією за категоріями за допомогою Isotope.js та переглядом зображень у лайтбоксі GLightbox.",
+    annsdecorLi3: "Карусель відгуків на базі Swiper.js з адаптивними брейкпоінтами та автопрокруткою.",
+    annsdecorLi4: "Контактна форма з валідацією в реальному часі, форматуванням номера телефону, перевіркою домену email та backend-інтеграцією на PHP з PHPMailer.",
+    annsdecorLi5: "Адаптивний дизайн на Bootstrap 5.3.3 з кастомними CSS-змінними для темізації та підходом mobile-first.",
+    annsdecorLi6: "Інтерактивні елементи: липкий хедер, анімовані секції з AOS (Animate On Scroll) та валідація форм із візуальним зворотним зв'язком.",
+    annsdecorP3: "Мої обов'язки включали кастомізацію шаблону BootstrapMade Kelly, реалізацію адаптивних макетів на Bootstrap 5.3.3, інтеграцію JavaScript‑бібліотек (AOS, Swiper.js, GLightbox, Isotope.js), розробку контактної форми з backend‑частиною на PHP та PHPMailer, створення кастомних стилів за допомогою CSS‑змінних та забезпечення кросбраузерної сумісності. Проєкт демонструє мої навички у frontend‑розробці, кастомізації шаблонів, адаптивному дизайні, валідації форм, інтеграції JavaScript та принципах UI/UX.",
+    templateLabel: "Шаблон",
+    websiteLabel: "Веб‑сайт",
+
+    // Generic details label
     details: "Деталі"
   }
 };
