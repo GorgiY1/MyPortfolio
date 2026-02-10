@@ -1,5 +1,5 @@
-<?php 
 
+<?php
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
@@ -137,7 +137,6 @@ if ($phone !== '') {
         echo 'Invalid phone number format. Please enter a valid phone number (7-15 digits).';
         exit;
     }
-
     // Зберігаємо очищений номер
     $phone = $phoneClean;
 }

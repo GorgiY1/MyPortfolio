@@ -204,7 +204,9 @@ const translations = {
     servicesDatabaseTitle: "Проектування та розробка баз даних",
     servicesDatabaseDescription: "Проектування, оптимізація та управління базами даних MS SQL Server. Міграції Entity Framework Core, складні запити та архітектура реляційних баз даних.",
     servicesFullstackTitle: "Full-Stack розробка",
+
     servicesFullstackDescription: "Розробка веб-додатків від проектування бази даних до користувацького інтерфейсу. ASP.NET Core backend з React frontend, забезпечуючи безшовну інтеграцію та оптимальну продуктивність.",
+
     servicesFrontendTitle: "Frontend розробка",
     servicesFrontendDescription: "Адаптивна веб-розробка з використанням HTML5, CSS3, JavaScript, React та Bootstrap. Створення інтуїтивних користувацьких інтерфейсів з сучасними принципами дизайну та mobile-first підходом.",
     servicesCloudTitle: "Хмарні сервіси та архітектура",
