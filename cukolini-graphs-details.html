@@ -47,14 +47,21 @@
       <a href="mailto:george.site.dev@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
     </div>
 
+    <!-- Language Switcher -->
+    <div class="language-switcher-container text-center">
+      <button class="language-switcher btn btn-sm">
+        <span class="lang-text">EN</span> / <span class="lang-text">UK</span>
+      </button>
+    </div>
+
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i><span data-translate="navHome">Home</span></a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> <span data-translate="navAbout">About</span></a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> <span data-translate="navResume">Resume</span></a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> <span data-translate="navPortfolio">Portfolio</span></a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> <span data-translate="navServices">Services</span></a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> <span data-translate="navContact">Contact</span></a></li>
       </ul>
     </nav>
 
@@ -68,8 +75,8 @@
         <h1 class="mb-2 mb-lg-0">Cukolini Graphs Details</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html" data-translate="home">Home</a></li>
+            <li><a href="index.html#portfolio" data-translate="breadcrumbPortfolio">Portfolio</a></li>
             <li class="current">Cukolini Graphs</li>
           </ol>
         </nav>
@@ -176,12 +183,12 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
+              <h3 data-translate="projectInfo">Project information</h3>
               <ul>
-                <li><strong>Project</strong>: Cukolini Graphs</li>
-                <li><strong>Category</strong>: Work Schedule Management Web App</li>
-                <li><strong>Role</strong>: Full-stack .NET C# Developer</li>
-                <li><strong>Stack</strong>: ASP.NET Core MVC (.NET 8), EF Core 8, Identity, MS SQL Server, JavaScript, CSS</li>
+                <li><strong data-translate="projectLabel">Project</strong>: Cukolini Graphs</li>
+                <li><strong data-translate="categoryLabel">Category</strong>: Work Schedule Management Web App</li>
+                <li><strong data-translate="roleLabel">Role</strong>: Full-stack .NET C# Developer</li>
+                <li><strong data-translate="stackLabel">Stack</strong>: ASP.NET Core MVC (.NET 8), EF Core 8, Identity, MS SQL Server, JavaScript, CSS</li>
               </ul>
             </div>
           </div>
@@ -198,7 +205,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1">Georgiy Oriabinskiy</strong> <span>All Rights Reserved</span></p>
+        <p>© <span data-translate="footerCopyright">Copyright</span> <strong class="px-1">Georgiy Oriabinskiy</strong> <span data-translate="footerRights">All Rights Reserved</span></p>
       </div>
       <div class="credits">
       </div>
@@ -226,6 +233,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Translation JS File -->
+  <script src="assets/js/translations.js"></script>
 
 </body>
 

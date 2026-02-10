@@ -43,18 +43,25 @@
 
     <div class="social-links text-center">
       <a href="https://github.com/GorgiY1" target="_blank" class="github"><i class="bi bi-github"></i></a>
-      <a href="https://resumecraft.com" target="_blank" class="linkedin"><i class="bi bi-globe"></i></a>
+      <!-- <a href="https://resumecraft.com" target="_blank" class="linkedin"><i class="bi bi-globe"></i></a> -->
       <a href="mailto:george.site.dev@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="language-switcher-container text-center">
+      <button class="language-switcher btn btn-sm">
+        <span class="lang-text">EN</span> / <span class="lang-text">UK</span>
+      </button>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i><span data-translate="navHome">Home</span></a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> <span data-translate="navAbout">About</span></a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> <span data-translate="navResume">Resume</span></a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> <span data-translate="navPortfolio">Portfolio</span></a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> <span data-translate="navServices">Services</span></a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> <span data-translate="navContact">Contact</span></a></li>
       </ul>
     </nav>
 
@@ -68,8 +75,8 @@
         <h1 class="mb-2 mb-lg-0">Nomyfy / HealthyLifestyleApp Details</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html" data-translate="home">Home</a></li>
+            <li><a href="index.html#portfolio" data-translate="breadcrumbPortfolio">Portfolio</a></li>
             <li class="current">Nomyfy / HealthyLifestyleApp</li>
           </ol>
         </nav>
@@ -210,19 +217,19 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
+              <h3 data-translate="projectInfo">Project information</h3>
               <ul>
-                <li><strong>Project</strong>: HealthyLifestyleApp (Nomyfy)</li>
-                <li><strong>Category</strong>: Full‑stack web application</li>
-                <li><strong>Role</strong>: Backend &amp; full‑stack .NET C# developer</li>
-                <li><strong>Stack</strong>: ASP.NET Core 8, C#, React 19, SQL Server, Redis, MinIO, Docker, Stripe, EF Core, Clean Architecture</li>
+                <li><strong data-translate="projectLabel">Project</strong>: HealthyLifestyleApp (Nomyfy)</li>
+                <li><strong data-translate="categoryLabel">Category</strong>: Full‑stack web application</li>
+                <li><strong data-translate="roleLabel">Role</strong>: Backend &amp; full‑stack .NET C# developer</li>
+                <li><strong data-translate="stackLabel">Stack</strong>: ASP.NET Core 8, C#, React 19, SQL Server, Redis, MinIO, Docker, Stripe, EF Core, Clean Architecture</li>
               </ul>
               <div class="mt-3">
                 <a href="https://github.com/OleksDragon/HealthyLifestyleApp" 
                    target="_blank" 
                    rel="noopener noreferrer" 
                    class="btn btn-primary">
-                  <i class="bi bi-github"></i> View on GitHub
+                  <i class="bi bi-github"></i> <span data-translate="viewGitHub">View on GitHub</span>
                 </a>
               </div>
             </div>
@@ -240,7 +247,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1">Georgiy Oriabinskiy</strong> <span>All Rights Reserved</span></p>
+        <p>© <span data-translate="footerCopyright">Copyright</span> <strong class="px-1">Georgiy Oriabinskiy</strong> <span data-translate="footerRights">All Rights Reserved</span></p>
       </div>
       <div class="credits">
       </div>
@@ -268,6 +275,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Translation JS File -->
+  <script src="assets/js/translations.js"></script>
 
 </body>
 

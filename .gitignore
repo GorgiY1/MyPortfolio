@@ -1,0 +1,57 @@
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Uploads (media files)
+# ===============================
+uploads/
+storage/uploads/
+public/uploads/
+iPortfolio/assets/img
+iPortfolio/assets/videos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.heic
+
+# Videos
+*.mp4
+*.webm
+*.mov
+*.avi
+*.mkv
+*.flv
+
+# ===============================
+# Logs & cache
+# ===============================
+*.log
+cache/
+tmp/
+
+# ===============================
+# OS / IDE
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Node / vendor (if exists)
+# ===============================
+node_modules/
+vendor/
+
+# ===============================
+# Build artifacts
+# ===============================
+dist/
+build/
