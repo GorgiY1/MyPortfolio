@@ -54,7 +54,7 @@
     <div class="social-links text-center">
       <a href="https://github.com/GorgiY1" target="_blank" class="github"><i class="bi bi-github"></i></a>
       <!-- <a href="https://resumecraft.com" target="_blank" class="linkedin"><i class="bi bi-globe"></i></a> -->
-      <a href="mailto:george.site.dev@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
+      <a href="#contact" class="email"><i class="bi bi-envelope"></i></a>
     </div>
 
     <!-- Language Switcher -->
@@ -86,7 +86,12 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2 data-translate="heroTitle">Georgiy Oriabinskiy</h2>
-        <p><span data-translate="heroSubtitle">I'm a</span> <span class="typed" data-typed-items="Backend Developer, .NET Developer, C# Developer, Full-Stack Developer">Backend Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <p><span data-translate="heroSubtitle">I'm a</span> <span class="typed" data-typed-items="Backend Developer, .NET Developer, C# Developer, Full-Stack Developer">Backend Developer</span></p>
+        <div class="mt-4 d-flex flex-wrap gap-2">
+          <a href="assets/docs/Developer.pdf" class="btn btn-primary" download data-translate="heroCtaCv">Download CV</a>
+          <a href="assets/docs/Developer.pdf" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer" data-translate="heroCtaCvView">View CV</a>
+          <a href="https://github.com/GorgiY1" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer" data-translate="heroCtaGithub">View GitHub</a>
+        </div>
       </div>
 
     </section><!-- /Hero Section -->
@@ -155,8 +160,10 @@
 
           <div class="col-lg-6">
 
+            <h3 class="h5 mb-3" data-translate="skillsGroupBackend">Backend &amp; Databases</h3>
+
             <div class="progress">
-              <span class="skill"><span>C# .NET 6/7/8</span> <i class="val">90%</i></span>
+              <span class="skill"><span>C# .NET 8</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -193,6 +200,8 @@
           </div>
 
           <div class="col-lg-6">
+
+            <h3 class="h5 mb-3" data-translate="skillsGroupFrontend">Frontend &amp; Tools</h3>
 
             <div class="progress">
               <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
@@ -342,12 +351,9 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fullstack">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/nomyfy/Screenshot 2025-12-18 132917.png" class="img-fluid" alt="Nomyfy Health & Wellness Platform">
-                <div class="portfolio-info">
+                <div class="portfolio-info portfolio-link" data-href="nomyfy-details.html" role="button" tabindex="0">
                   <h4>Nomyfy — Health & Wellness Platform</h4>
-                  <p>Full-stack app with ASP.NET Core 8 & React 19</p>
-                  <a href="assets/img/portfolio/nomyfy/Screenshot 2025-12-18 132917.png" title="Nomyfy Platform" data-gallery="portfolio-gallery-nomyfy" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="assets/img/portfolio/video/Presentation-NOMYFY.mp4" title="Nomyfy Video" data-gallery="portfolio-gallery-nomyfy" class="glightbox portfolio-video-link" data-type="video"><i class="bi bi-play-circle"></i></a>
-                  <a href="nomyfy-details.html" target="_blank" title="Project Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <p>Full-stack health &amp; wellness platform (ASP.NET Core 8, React 19, SQL Server).</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -355,12 +361,9 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/cukolinigraphs/Screenshot 2025-12-18 141403.png" class="img-fluid" alt="Cukolini Graphs Work Schedule">
-                <div class="portfolio-info">
+                <div class="portfolio-info portfolio-link" data-href="cukolini-graphs-details.html" role="button" tabindex="0">
                   <h4>Cukolini Graphs</h4>
-                  <p>Work Schedule Management Web App</p>
-                  <a href="assets/img/portfolio/cukolinigraphs/Screenshot 2025-12-18 141403.png" title="Cukolini Graphs" data-gallery="portfolio-gallery-cukolini" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="assets/img/portfolio/video/CukoliniGraphs_1080.mp4" title="Cukolini Graphs Video" data-gallery="portfolio-gallery-cukolini" class="glightbox portfolio-video-link" data-type="video"><i class="bi bi-play-circle"></i></a>
-                  <a href="cukolini-graphs-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <p>Automated work scheduling system for a real bakery (ASP.NET Core MVC, EF Core 8).</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -368,11 +371,9 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/annsdecor/Screenshot 2026-01-02 142436.png" class="img-fluid" alt="Ann's Decor Business Website">
-                <div class="portfolio-info">
+                <div class="portfolio-info portfolio-link" data-href="annsdecor-details.html" role="button" tabindex="0">
                   <h4>Ann's Decor</h4>
-                  <p>Business Website for Event Design Company</p>
-                  <a href="assets/img/portfolio/annsdecor/Screenshot 2026-01-02 142436.png" title="Ann's Decor" data-gallery="portfolio-gallery-annsdecor" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="annsdecor-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <p>Production business website for an event decor company (HTML, CSS, JS, PHP).</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -571,6 +572,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2 data-translate="contactTitle">Contact</h2>
+        <p class="mt-2" data-translate="contactOpenTo">Open to: full-time, part-time, and project work (remote or onsite).</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">

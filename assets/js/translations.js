@@ -17,10 +17,14 @@ const translations = {
     heroTitle: "Georgiy Oriabinskiy",
     heroSubtitle: "I'm a",
     heroRoles: "Backend Developer, .NET Developer, C# Developer, Full-Stack Developer",
+    heroTagline: "Junior .NET Backend Developer",
+    heroCtaCv: "Download CV",
+    heroCtaCvView: "View CV",
+    heroCtaGithub: "View GitHub",
     
     // About Section
     aboutTitle: "About",
-    aboutSubtitle: "Backend .NET C# Developer passionate about building scalable applications and clean code architecture.",
+    aboutSubtitle: "Backend .NET C# Developer passionate about building scalable applications and clean code architecture. Currently looking for a Junior / Middle .NET backend or full-stack role (remote or onsite in Ukraine/EU).",
     aboutHeading: "Backend .NET C# Developer",
     aboutDescription: "Motivated Junior .NET C# Developer with strong knowledge of C#, ASP.NET Core, SQL Server, Azure, and modern web technologies. Proficient in object-oriented design principles, design patterns, and basic software architecture.",
     aboutLocation: "Location:",
@@ -38,12 +42,14 @@ const translations = {
     
     // Skills Section
     skillsTitle: "Skills",
+    skillsGroupBackend: "Backend & Databases",
+    skillsGroupFrontend: "Frontend & Tools",
     
     // Resume Section
     resumeTitle: "Resume",
     resumeSubtitle: "My professional journey in software development, education, and technical expertise.",
     resumeSummary: "Summary",
-    resumeSummaryDescription: "Motivated Junior .NET C# Developer with strong knowledge of C#, ASP.NET Core, SQL Server, Azure, and modern web technologies. Proficient in object-oriented design principles, design patterns, and basic software architecture.",
+    resumeSummaryDescription: "Motivated Junior .NET C# Developer with strong knowledge of C#, ASP.NET Core, SQL Server, Azure, and modern web technologies. Proficient in object-oriented design principles, design patterns, and basic software architecture. Experience includes working on Nomyfy (full-stack health platform), Cukolini Graphs (scheduling system for a real bakery), and Ann's Decor (production business website).",
     resumeEducation: "Education",
     resumeEducationDescription: "Computing program study focusing on Software development (full-stack). Comprehensive training in backend and frontend technologies, database management, and software architecture principles.",
     resumeLanguages: "Languages",
@@ -105,6 +111,7 @@ const translations = {
     contactFormSend: "Send Message",
     contactFormLoading: "Loading",
     contactFormSuccess: "Your message has been sent. Thank you!",
+    contactOpenTo: "Open to: full-time, part-time, and project work (remote or onsite).",
     
     // Footer
     footerCopyright: "Copyright",
@@ -121,10 +128,10 @@ const translations = {
     viewGitHub: "View on GitHub",
     
     // Portfolio Detail Pages - Nomyfy
-    nomyfyPageTitle: "Nomyfy / HealthyLifestyleApp Details",
-    nomyfyBreadcrumbCurrent: "Nomyfy / HealthyLifestyleApp",
-    nomyfyHeading: "HealthyLifestyleApp — Health & Wellness Platform",
-    nomyfyP1: "HealthyLifestyleApp is a full‑stack health & wellness platform that helps users build sustainable habits around fitness, nutrition, sleep, and mental health. The app combines personal health tracking, analytics, and social features to keep users motivated and engaged over the long term.",
+    nomyfyPageTitle: "Nomyfy — Health & Wellness Platform Details",
+    nomyfyBreadcrumbCurrent: "Nomyfy",
+    nomyfyHeading: "Nomyfy — Health & Wellness Platform",
+    nomyfyP1: "Nomyfy is a full‑stack health & wellness platform that helps users build sustainable habits around fitness, nutrition, sleep, and mental health. The app combines personal health tracking, analytics, and social features to keep users motivated and engaged over the long term.",
     nomyfyP2: "Users can log weight, workouts, nutrition, sleep and mood, then review progress through interactive dashboards and charts. The platform includes social challenges, groups, and a community feed so people can share results, support each other, and compete in friendly goals.",
     nomyfyLi1: "Centralized health tracking across weight, workouts, nutrition, sleep, and mental health with analytics.",
     nomyfyLi2: "Social features: challenges, groups, community feed and profile pages to increase user engagement.",
@@ -161,7 +168,8 @@ const translations = {
     annsdecorLi6: "Interactive elements including sticky navigation header, animated sections with AOS (Animate On Scroll), and form validation with visual feedback.",
     annsdecorP3: "My responsibilities included customizing the BootstrapMade Kelly template, implementing responsive layouts with Bootstrap 5.3.3, integrating JavaScript libraries (AOS, Swiper.js, GLightbox, Isotope.js), developing the contact form with PHP backend and PHPMailer integration, creating custom CSS styling with CSS variables, and ensuring cross-browser compatibility. The project demonstrates my skills in frontend web development, template customization, responsive design, form validation, JavaScript integration, and UI/UX design principles.",
     templateLabel: "Template",
-    websiteLabel: "Website",
+    websiteLabel: "Client website",
+    clientLabel: "Client",
 
     // Generic details label
     details: "Details"
@@ -180,10 +188,14 @@ const translations = {
     heroTitle: "Георгій Орябинський",
     heroSubtitle: "Я",
     heroRoles: "Backend Developer, .NET Developer, C# Developer, Full-Stack Developer",
+    heroTagline: "Junior .NET Backend Developer",
+    heroCtaCv: "Завантажити CV",
+    heroCtaCvView: "Переглянути CV",
+    heroCtaGithub: "Відкрити GitHub",
     
     // About Section
     aboutTitle: "Про мене",
-    aboutSubtitle: "Backend .NET C# розробник, захоплений створенням масштабованих додатків та чистою архітектурою коду.",
+    aboutSubtitle: "Backend .NET C# розробник, захоплений створенням масштабованих додатків та чистою архітектурою коду. Активно шукаю позицію Junior / Middle .NET backend або full-stack розробника (remote або офіс в Україні / ЄС).",
     aboutHeading: "Backend .NET C# розробник",
     aboutDescription: "Мотивований Junior .NET C# розробник з глибокими знаннями C#, ASP.NET Core, SQL Server, Azure та сучасних веб-технологій. Досвідчений у принципах об'єктно-орієнтованого дизайну, патернах проектування та базовій архітектурі програмного забезпечення.",
     aboutLocation: "Місцезнаходження:",
@@ -201,12 +213,14 @@ const translations = {
     
     // Skills Section
     skillsTitle: "Навички",
+    skillsGroupBackend: "Backend та бази даних",
+    skillsGroupFrontend: "Frontend та інструменти",
     
     // Resume Section
     resumeTitle: "Резюме",
     resumeSubtitle: "Мій професійний шлях у розробці програмного забезпечення, освіті та технічній експертизі.",
     resumeSummary: "Резюме",
-    resumeSummaryDescription: "Мотивований Junior .NET C# розробник з глибокими знаннями C#, ASP.NET Core, SQL Server, Azure та сучасних веб-технологій. Досвідчений у принципах об'єктно-орієнтованого дизайну, патернах проектування та базовій архітектурі програмного забезпечення.",
+    resumeSummaryDescription: "Мотивований Junior .NET C# розробник з глибокими знаннями C#, ASP.NET Core, SQL Server, Azure та сучасних веб-технологій. Досвідчений у принципах об'єктно-орієнтованого дизайну, патернах проектування та базовій архітектурі програмного забезпечення. Маю досвід роботи над Nomyfy (full-stack платформа для здоров'я), Cukolini Graphs (система планування змін для реальної пекарні) та Ann's Decor (production-сайт бізнесу з декору подій).",
     resumeEducation: "Освіта",
     resumeEducationDescription: "Навчальна програма з обчислювальної техніки, що зосереджується на розробці програмного забезпечення (full-stack). Комплексне навчання backend та frontend технологіям, управлінню базами даних та принципам архітектури програмного забезпечення.",
     resumeLanguages: "Мови",
@@ -270,6 +284,7 @@ const translations = {
     contactFormSend: "Відправити повідомлення",
     contactFormLoading: "Завантаження",
     contactFormSuccess: "Ваше повідомлення відправлено. Дякуємо!",
+    contactOpenTo: "Відкритий до: full-time, part-time та проектної роботи (remote або офіс).",
     
     // Footer
     footerCopyright: "Авторське право",
@@ -286,10 +301,10 @@ const translations = {
     viewGitHub: "Переглянути на GitHub",
     
     // Portfolio Detail Pages - Nomyfy
-    nomyfyPageTitle: "Деталі Nomyfy / HealthyLifestyleApp",
-    nomyfyBreadcrumbCurrent: "Nomyfy / HealthyLifestyleApp",
-    nomyfyHeading: "HealthyLifestyleApp — платформа здоров'я та добробуту",
-    nomyfyP1: "HealthyLifestyleApp — це full‑stack платформа для здоров'я та добробуту, яка допомагає користувачам формувати сталі звички у сфері фітнесу, харчування, сну та ментального здоров'я. Додаток поєднує особисте відстеження показників, аналітику та соціальні функції, щоб підтримувати мотивацію користувачів у довгостроковій перспективі.",
+    nomyfyPageTitle: "Деталі Nomyfy — платформи здоров'я та добробуту",
+    nomyfyBreadcrumbCurrent: "Nomyfy",
+    nomyfyHeading: "Nomyfy — платформа здоров'я та добробуту",
+    nomyfyP1: "Nomyfy — це full‑stack платформа для здоров'я та добробуту, яка допомагає користувачам формувати сталі звички у сфері фітнесу, харчування, сну та ментального здоров'я. Додаток поєднує особисте відстеження показників, аналітику та соціальні функції, щоб підтримувати мотивацію користувачів у довгостроковій перспективі.",
     nomyfyP2: "Користувачі можуть фіксувати вагу, тренування, харчування, сон та настрій, а потім переглядати прогрес через інтерактивні дашборди та графіки. Платформа включає соціальні челенджі, групи та стрічку спільноти, де користувачі можуть ділитися результатами, підтримувати один одного та змагатися у дружніх цілях.",
     nomyfyLi1: "Централізоване відстеження ваги, тренувань, харчування, сну та ментального здоров'я з аналітикою.",
     nomyfyLi2: "Соціальні функції: челенджі, групи, стрічка спільноти та профілі користувачів для підвищення залученості.",
@@ -326,7 +341,8 @@ const translations = {
     annsdecorLi6: "Інтерактивні елементи: липкий хедер, анімовані секції з AOS (Animate On Scroll) та валідація форм із візуальним зворотним зв'язком.",
     annsdecorP3: "Мої обов'язки включали кастомізацію шаблону BootstrapMade Kelly, реалізацію адаптивних макетів на Bootstrap 5.3.3, інтеграцію JavaScript‑бібліотек (AOS, Swiper.js, GLightbox, Isotope.js), розробку контактної форми з backend‑частиною на PHP та PHPMailer, створення кастомних стилів за допомогою CSS‑змінних та забезпечення кросбраузерної сумісності. Проєкт демонструє мої навички у frontend‑розробці, кастомізації шаблонів, адаптивному дизайні, валідації форм, інтеграції JavaScript та принципах UI/UX.",
     templateLabel: "Шаблон",
-    websiteLabel: "Веб‑сайт",
+    websiteLabel: "Веб‑сайт замовника",
+    clientLabel: "Клієнт",
 
     // Generic details label
     details: "Деталі"

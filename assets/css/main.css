@@ -823,10 +823,14 @@ section,
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 60%);
+  box-shadow: 0 0 18px rgba(20, 157, 221, 0.25);
 }
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  border-radius: inherit;
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -837,6 +841,7 @@ section,
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
@@ -1062,8 +1067,10 @@ section,
 --------------------------------------------------------------*/
 .contact .info-wrap {
   background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 22px rgba(20, 157, 221, 0.22);
   padding: 30px;
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 @media (max-width: 575px) {
@@ -1112,7 +1119,9 @@ section,
   background-color: var(--surface-color);
   height: 100%;
   padding: 30px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 22px rgba(20, 157, 221, 0.22);
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 @media (max-width: 575px) {
@@ -1192,7 +1201,9 @@ section,
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 22px rgba(20, 157, 221, 0.25);
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1215,6 +1226,19 @@ section,
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+}
+
+.detail-card {
+  background-color: #040b14;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 65%);
+  box-shadow: 0 0 22px rgba(20, 157, 221, 0.22);
+}
+
+.detail-card:last-child {
+  margin-bottom: 0;
 }
 
 .portfolio-details .portfolio-description h2 {

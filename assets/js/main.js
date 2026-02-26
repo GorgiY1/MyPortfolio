@@ -90,22 +90,6 @@
   window.addEventListener('load', aosInit);
 
   /**
-   * Init typed.js
-   */
-  const selectTyped = document.querySelector('.typed');
-  if (selectTyped && !window.typedInstance) {
-    let typed_strings = selectTyped.getAttribute('data-typed-items');
-    typed_strings = typed_strings.split(',');
-    window.typedInstance = new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
-
-  /**
    * Initiate Pure Counter
    */
   new PureCounter();
@@ -215,6 +199,28 @@
   }
 
   window.addEventListener("load", initSwiper);
+
+  /**
+   * Make portfolio cards clickable via .portfolio-info
+   */
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.portfolio-info.portfolio-link[data-href]').forEach(function (info) {
+      const url = info.getAttribute('data-href');
+      if (!url) return;
+
+      const navigate = () => {
+        window.location.href = url;
+      };
+
+      info.addEventListener('click', navigate);
+      info.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          navigate();
+        }
+      });
+    });
+  });
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
