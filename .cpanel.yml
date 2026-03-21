@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/georgiyo/public_html/
-    - /bin/rsync -av --exclude='.env' ./ $DEPLOYPATH
+    - /bin/rsync -av --exclude='.git' ./ $DEPLOYPATH
