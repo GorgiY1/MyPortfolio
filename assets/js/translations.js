@@ -111,7 +111,7 @@ const translations = {
     contactFormSend: "Send Message",
     contactFormLoading: "Loading",
     contactFormSuccess: "Your message has been sent. Thank you!",
-    contactOpenTo: "Open to: full-time, part-time, and project work (remote or onsite).",
+    contactOpenTo: "Open to: full-time, part-time, and project work (remote only).",
     
     // Footer
     footerCopyright: "Copyright",
@@ -284,7 +284,7 @@ const translations = {
     contactFormSend: "Відправити повідомлення",
     contactFormLoading: "Завантаження",
     contactFormSuccess: "Ваше повідомлення відправлено. Дякуємо!",
-    contactOpenTo: "Відкритий до: full-time, part-time та проектної роботи (remote або офіс).",
+    contactOpenTo: "Відкритий до: full-time, part-time та проектної роботи (лише remote).",
     
     // Footer
     footerCopyright: "Авторське право",
