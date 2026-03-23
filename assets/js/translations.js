@@ -24,7 +24,7 @@ const translations = {
     
     // About Section
     aboutTitle: "About",
-    aboutSubtitle: "Backend .NET C# Developer passionate about building scalable applications and clean code architecture. Currently looking for a Junior / Middle .NET backend or full-stack role (remote or onsite in Ukraine/EU).",
+    aboutSubtitle: "Backend .NET C# Developer passionate about building scalable applications and clean code architecture. Currently looking for a Junior / Middle .NET backend or full-stack role (remote only).",
     aboutHeading: "Backend .NET C# Developer",
     aboutDescription: "Motivated Junior .NET C# Developer with strong knowledge of C#, ASP.NET Core, SQL Server, Azure, and modern web technologies. Proficient in object-oriented design principles, design patterns, and basic software architecture.",
     aboutLocation: "Location:",
@@ -195,7 +195,7 @@ const translations = {
     
     // About Section
     aboutTitle: "Про мене",
-    aboutSubtitle: "Backend .NET C# розробник, захоплений створенням масштабованих додатків та чистою архітектурою коду. Активно шукаю позицію Junior / Middle .NET backend або full-stack розробника (remote або офіс в Україні / ЄС).",
+    aboutSubtitle: "Backend .NET C# розробник, захоплений створенням масштабованих додатків та чистою архітектурою коду. Активно шукаю позицію Junior / Middle .NET backend або full-stack розробника (лише remote).",
     aboutHeading: "Backend .NET C# розробник",
     aboutDescription: "Мотивований Junior .NET C# розробник з глибокими знаннями C#, ASP.NET Core, SQL Server, Azure та сучасних веб-технологій. Досвідчений у принципах об'єктно-орієнтованого дизайну, патернах проектування та базовій архітектурі програмного забезпечення.",
     aboutLocation: "Місцезнаходження:",
