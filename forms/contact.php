@@ -89,13 +89,38 @@ function logError(string $message, array $context = []): void
     @file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
 }
 
-// Завантажуємо .env з кореня проєкту (на рівень вище за iPortfolio)
-$envPath = dirname(__DIR__) . DIRECTORY_SEPARATOR . '.env';
-loadEnv($envPath);
+// Визначаємо шлях до `.env` на хостингу (cPanel може зберігати файл НЕ в `public_html`).
+$accountRoot = dirname(__DIR__, 2); // .../public_html/forms -> .../
 
-// Логуємо, чи знайдено .env файл
-if (!is_readable($envPath)) {
-    logError('WARNING: .env file not found or not readable', ['path' => $envPath]);
+// Можливі розташування `.env`:
+// 1) корінь акаунта:        /home/user/.env
+// 2) корінь public_html:  /home/user/public_html/.env
+// 3) backup_hidden:       /home/user/backup_hidden/.env
+$envCandidates = [
+    $accountRoot . DIRECTORY_SEPARATOR . '.env',
+    dirname(__DIR__) . DIRECTORY_SEPARATOR . '.env',
+    $accountRoot . DIRECTORY_SEPARATOR . 'backup_hidden' . DIRECTORY_SEPARATOR . '.env',
+];
+
+// Якщо HOST налаштував шлях через змінну оточення — використовуємо її першою.
+$envOverride = getenv('ENV_PATH') ?: getenv('DOTENV_PATH');
+if (!empty($envOverride)) {
+    array_unshift($envCandidates, $envOverride);
+}
+
+$envPath = null;
+foreach ($envCandidates as $candidate) {
+    if (is_readable($candidate)) {
+        $envPath = $candidate;
+        break;
+    }
+}
+
+if (!empty($envPath)) {
+    loadEnv($envPath);
+} else {
+    // Логуємо, чи знайдено .env файл (списком кандидатів для діагностики).
+    logError('WARNING: .env file not found or not readable', ['candidates' => $envCandidates]);
 }
 
 // Дозволяємо тільки POST
