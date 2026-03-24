@@ -626,6 +626,10 @@ section,
 }
 
 @media (max-width: 768px) {
+  #hero .container[data-aos="fade-up"][data-aos-delay="100"] {
+    transform: translateY(25vh);
+  }
+
   .hero h2 {
     font-size: 32px;
   }
@@ -641,6 +645,13 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+}
+
+.about .about-profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 340px;
 }
 
 .about .content ul {
@@ -733,6 +744,83 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Skills - Technology Cards
+--------------------------------------------------------------*/
+.skills .skills-tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.skills .skills-tech-grid--backend,
+.skills .skills-tech-grid--frontend,
+.skills .skills-tech-grid--devops {
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 0 18px rgba(20, 157, 221, 0.18);
+}
+
+.skills h3[data-translate^="skillsGroup"] {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+  max-width: 100%;
+
+  background: color-mix(in srgb, var(--accent-color), transparent 88%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 55%);
+  border-radius: 14px;
+  padding: 10px 14px;
+
+  box-shadow: 0 0 18px rgba(20, 157, 221, 0.22), inset 0 0 12px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.15;
+
+  margin-bottom: 16px;
+}
+
+.skills .skills-content > .col-12 {
+  margin-top: 20px;
+}
+
+.skills .skills-content > .col-12:first-child {
+  margin-top: 0;
+}
+
+.skills .skills-tech-card {
+  background-color: #149ddd87;
+  border-radius: 16px;
+  padding: 14px 16px;
+  text-align: center;
+  color: var(--heading-color);
+  font-weight: 700;
+  font-family: var(--heading-font);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 65%);
+  box-shadow: 0 0 22px rgba(20, 157, 221, 0.22);
+  flex: 1 1 220px;
+  transition: all 0.2s ease;
+}
+
+.skills .skills-tech-grid--backend .skills-tech-card,
+.skills .skills-tech-grid--frontend .skills-tech-card,
+.skills .skills-tech-grid--devops .skills-tech-card {
+  flex: 0 0 auto;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.skills .skills-tech-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 28px rgba(20, 157, 221, 0.35);
 }
 
 /*--------------------------------------------------------------

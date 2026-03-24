@@ -44,6 +44,7 @@ const translations = {
     skillsTitle: "Skills",
     skillsGroupBackend: "Backend & Databases",
     skillsGroupFrontend: "Frontend & Tools",
+    skillsGroupDevOps: "DevOps / Deployment",
     
     // Resume Section
     resumeTitle: "Resume",
@@ -63,7 +64,7 @@ const translations = {
     resumePersonalSkill3: "Fast learning",
     resumePersonalSkill4: "Teamwork",
     resumePersonalSkill5: "Attention to detail",
-    resumeCompetency1: "Full-stack application development",
+    resumeCompetency1: "Full-stack and backend development",
     resumeCompetency2: "REST API design and implementation",
     resumeCompetency3: "Relational database design and optimization",
     resumeCompetency4: "Clean code and SOLID principles",
@@ -215,6 +216,7 @@ const translations = {
     skillsTitle: "Навички",
     skillsGroupBackend: "Backend та бази даних",
     skillsGroupFrontend: "Frontend та інструменти",
+    skillsGroupDevOps: "DevOps / Розгортання",
     
     // Resume Section
     resumeTitle: "Резюме",
@@ -234,7 +236,7 @@ const translations = {
     resumePersonalSkill3: "Швидке навчання",
     resumePersonalSkill4: "Командна робота",
     resumePersonalSkill5: "Увага до деталей",
-    resumeCompetency1: "Розробка full-stack сайтів",
+    resumeCompetency1: "Розробка full-stack і backend рішень",
     resumeCompetency2: "Проектування та реалізація REST API",
     resumeCompetency3: "Проектування та оптимізація реляційних баз даних",
     resumeCompetency4: "Чистий код та принципи SOLID",
